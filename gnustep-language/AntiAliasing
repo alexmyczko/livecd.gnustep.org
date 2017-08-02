@@ -1,0 +1,8 @@
+#!/bin/bash
+
+. /usr/lib/GNUstep/System/Library/Makefiles/GNUstep.sh
+if [ "${1}n" = "Onn" ]; then
+    defaults write NSGlobalDomain GSFontAntiAlias 'YES'
+else
+    defaults write NSGlobalDomain GSFontAntiAlias 'NO'
+fi
