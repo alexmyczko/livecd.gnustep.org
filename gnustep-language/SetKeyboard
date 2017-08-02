@@ -1,0 +1,4 @@
+#!/bin/sh
+
+. /usr/lib/GNUstep/System/Library/Makefiles/GNUstep.sh
+setxkbmap "${1}"
