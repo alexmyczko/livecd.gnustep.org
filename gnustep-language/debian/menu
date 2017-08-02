@@ -1,0 +1,37 @@
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/AntiAliasing"\
+  title="On" command="/usr/bin/AntiAliasing On"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/AntiAliasing"\
+  title="Off" command="/usr/bin/AntiAliasing Off"
+
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Arabic" command="/usr/bin/SetLanguage Arabic"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Deutsch" command="/usr/bin/SetLanguage German"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Dutch" command="/usr/bin/SetLanguage Dutch"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="English" command="/usr/bin/SetLanguage English"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Français" command="/usr/bin/SetLanguage French"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Magyar" command="/usr/bin/SetLanguage Hungarian"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Italiano" command="/usr/bin/SetLanguage Italian"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Japanese" command="/usr/bin/SetLanguage Japanese"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Norwegian" command="/usr/bin/SetLanguage Norwegian"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Português" command="/usr/bin/SetLanguage Portuguese"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Romanian" command="/usr/bin/SetLanguage Romanian"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Español" command="/usr/bin/SetLanguage Spanish"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Svenska" command="/usr/bin/SetLanguage Swedish"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Thai" command="/usr/bin/SetLanguage Thai"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Türkçe" command="/usr/bin/SetLanguage Turkish"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Traditional Chinese" command="/usr/bin/SetLanguage TraditionalChinese"
