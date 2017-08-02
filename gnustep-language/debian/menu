@@ -24,6 +24,10 @@
 ?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
   title="Português" command="/usr/bin/SetLanguage Portuguese"
 ?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Polish" command="/usr/bin/SetLanguage Polish"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
+  title="Russian" command="/usr/bin/SetLanguage Russian"
+?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
   title="Romanian" command="/usr/bin/SetLanguage Romanian"
 ?package(gnustep-settings):needs="X11" section="Apps/System/GNUstep/Language"\
   title="Español" command="/usr/bin/SetLanguage Spanish"
