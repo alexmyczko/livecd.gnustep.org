@@ -19,7 +19,7 @@ gnustep-language/       This should be in SystemPreferences (the languages part)
 
 # Debian Packages
 Since Debian Stretch (9) does not have the following software, we add them manually:
-- chess.app_2.8-1_amd64.deb
+- chess.app_2.8-1_amd64.deb, see https://bugs.debian.org/861862
 - fontmanager.app_0.1-1_amd64.deb
 - fonts-blankenburg_0.1-1_all.deb
 - fonts-leaguespartan_0.1-1_all.deb
@@ -27,4 +27,4 @@ Since Debian Stretch (9) does not have the following software, we add them manua
 - protracker_2.3d.r10-1_amd64.deb
 - textedit.app_5.0-1_amd64.deb (NOT YET)
 - zram-config_0.5_all.deb
-- emacs.app (NOT YET)
+- emacs.app (NOT YET), see https://bugs.debian.org/299324
