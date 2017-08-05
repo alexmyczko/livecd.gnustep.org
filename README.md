@@ -17,6 +17,16 @@ gnustep-language/       This should be in SystemPreferences (the languages part)
 - /Users        to /home/
 - /Volumes      to /mnt
 
+# .xsignature
+Set a random background image
+- sed -i "s,/usr/share/WindowMaker/Backgrounds/debian.tiff,`ls ~/Backgrounds/water* | shuf -n1`,g" /home/me/GNUstep/Defaults/WindowMaker
+Set a random nickname for the TalkSoup IRC client, if started, autoconnect to irc.gnu.org and autojoin #gnustep
+- sed -i "s,Nick = FIXME,Nick = `shuf -n1 /home/me/.nicknames`,g" /home/me/GNUstep/Library/ApplicationSupport/TalkSoup/ServerList.plist
+Set display gamma at least to 1.6 (PC screens are too dark)
+- xgamma -gamma 1.6
+Run the window manager
+- exec wmaker
+
 # Debian Packages
 Since Debian Stretch (9) does not have the following software, we add them manually:
 - chess.app_2.8-1_amd64.deb, see https://bugs.debian.org/861862
