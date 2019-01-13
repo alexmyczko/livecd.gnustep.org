@@ -1,6 +1,8 @@
 # http://livecd.gnustep.org
 GNUSTEP live CD
 
+The current versions are based on the instructions at https://willhaley.com/blog/custom-debian-live-environment/
+
 gnustep-language/       This should be in SystemPreferences (the languages part)
 
 # Debian Menu system (thanks to the freedesktop.org)
@@ -19,10 +21,14 @@ gnustep-language/       This should be in SystemPreferences (the languages part)
 
 # /etc/init.d/autoexec.bat run via /etc/rc2.d/S02autoexec.bat
 ```
+# set the background color to a dark blue
 echo "\033]P0015284"
+# set the gray font color to light blue
 echo "\033]P7ffffff"
+# set no password for root
 sed -i s,^root:.*,root::12522:0:99999:7:::, /etc/shadow
 sed -i s,output=/usr/lib/GNUstep/System/Library/Fonts/,output=/etc/skel/GNUstep/Library/Fonts/,g /usr/bin/update-nfonts
+# create a user called "me"
 useradd me -d /home/me -m -s /bin/zsh
 #chsh -s /bin/zsh me
 adduser me tty
