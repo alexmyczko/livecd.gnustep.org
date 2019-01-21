@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/bin/su -s /bin/zsh -c "/usr/bin/startx" - me 2>/dev/null
